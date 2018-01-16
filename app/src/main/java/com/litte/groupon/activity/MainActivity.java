@@ -15,5 +15,6 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //随便添加的注释 测试git哈哈哈哈哈
     }
 }

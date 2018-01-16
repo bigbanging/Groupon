@@ -1,0 +1,24 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.litte.groupon.fragment.FourFragment">
+
+    <ImageView
+        android:id="@+id/imageView_four_guide"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/new_comer_guide_fg_4"/>
+
+    <Button
+        android:id="@+id/guide_four_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="开 启 体 验"
+        android:textStyle="normal"
+        android:background="@drawable/selector_guide_over_button"
+        android:textSize="22sp"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="160dp"/>
+</FrameLayout>

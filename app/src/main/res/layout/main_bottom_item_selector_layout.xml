@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/radioGroup_bottom"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#F8F8F8">
+
+    <RadioButton
+        android:id="@+id/bottom_radioButton_home"
+        style="@style/MainBottomRadioButton"
+        android:drawableTop="@drawable/selector_bottom_picture_home"
+        android:text="@string/main_bottom_text_home"
+        android:checked="true"
+        android:textSize="14sp"
+        android:textColor="@drawable/selector_bottom_text_home"/>
+    <RadioButton
+        android:id="@+id/bottom_radioButton_tuan"
+        style="@style/MainBottomRadioButton"
+        android:drawableTop="@drawable/selector_bottom_picture_tuan"
+        android:text="@string/main_bottom_text_tuan"
+        android:textSize="14sp"
+        android:textColor="@drawable/selector_bottom_text_tuan"/>
+    <RadioButton
+        android:id="@+id/bottom_radioButton_search"
+        style="@style/MainBottomRadioButton"
+        android:drawableTop="@drawable/selector_bottom_picture_search"
+        android:text="@string/main_bottom_text_search"
+        android:textSize="14sp"
+        android:textColor="@drawable/selector_bottom_text_search"/>
+    <RadioButton
+        android:id="@+id/bottom_radioButton_my"
+        style="@style/MainBottomRadioButton"
+        android:drawableTop="@drawable/selector_bottom_picture_my"
+        android:text="@string/main_bottom_text_my"
+        android:textSize="14sp"
+        android:textColor="@drawable/selector_bottom_text_my"/>
+</RadioGroup>

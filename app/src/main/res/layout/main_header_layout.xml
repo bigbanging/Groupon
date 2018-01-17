@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/ll_choose_city"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#FF6633"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/main_title_textView_position"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="8dp"
+            android:text="北京"
+            android:textColor="#FFFFFFFF"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/main_title_imageView_select_position"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_arrow_down_black"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"/>
+        <LinearLayout
+            android:id="@+id/ll_search"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="30dp"
+            android:layout_margin="15dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/shape_main_search_title">
+            <TextView
+                android:id="@+id/main_title_textView_search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="输入商户名、地点"
+                android:textSize="18sp"
+                android:layout_gravity="center_vertical"
+                android:drawableLeft="@drawable/navibar_search_icon_search"
+                android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/main_title_imageView_add_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/home_navibar_icon_add"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="8dp"/>
+    </LinearLayout>
+</LinearLayout>
